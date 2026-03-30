@@ -47,9 +47,9 @@ export default function SchedulePage() {
 
   return (
     <div className="max-w-full mx-auto">
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 mb-6">
         <div>
-          <h1 className="text-2xl font-bold">Weekly Schedule</h1>
+          <h1 className="text-xl md:text-2xl font-bold">Weekly Schedule</h1>
           {currentSchedule && (
             <p className="text-sm text-[var(--muted)]">
               Week of {new Date(currentSchedule.weekStartDate).toLocaleDateString('en-US', {
@@ -62,7 +62,7 @@ export default function SchedulePage() {
             </p>
           )}
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 flex-wrap">
           {warningCount > 0 && (
             <button
               onClick={() => setShowWarnings(!showWarnings)}

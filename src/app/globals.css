@@ -35,3 +35,19 @@ body {
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: var(--secondary-light); }
 ::-webkit-scrollbar-thumb { background: var(--muted); border-radius: 3px; }
+
+/* Safe area for iPhone notch/home indicator */
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Touch-friendly tap targets on mobile */
+@media (max-width: 767px) {
+  button, a, select {
+    min-height: 44px;
+  }
+
+  table {
+    font-size: 12px;
+  }
+}

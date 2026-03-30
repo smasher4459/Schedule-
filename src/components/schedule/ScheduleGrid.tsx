@@ -233,7 +233,7 @@ export default function ScheduleGrid() {
       {/* Hours Summary */}
       <div className="border-t border-[var(--border)] p-4 bg-[var(--secondary-light)]">
         <h3 className="text-sm font-semibold mb-3">Weekly Hours Summary</h3>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 max-h-60 md:max-h-none overflow-y-auto">
           {staff.map((member) => {
             const hours = getHoursForStaff(member.id);
             const isBelow = hours < member.minHoursPerWeek;
