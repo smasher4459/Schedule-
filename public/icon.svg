@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="100" fill="#2563eb"/>
+  <rect x="60" y="130" width="392" height="310" rx="30" fill="white"/>
+  <rect x="60" y="130" width="392" height="80" rx="30" fill="#1d4ed8"/>
+  <rect x="130" y="90" width="30" height="80" rx="10" fill="white"/>
+  <rect x="352" y="90" width="30" height="80" rx="10" fill="white"/>
+  <text x="256" y="175" text-anchor="middle" fill="white" font-family="system-ui" font-weight="bold" font-size="40">SCHEDULE</text>
+  <rect x="110" y="250" width="60" height="50" rx="8" fill="#dbeafe"/>
+  <rect x="195" y="250" width="60" height="50" rx="8" fill="#dbeafe"/>
+  <rect x="280" y="250" width="60" height="50" rx="8" fill="#fef3c7"/>
+  <rect x="110" y="320" width="60" height="50" rx="8" fill="#fef3c7"/>
+  <rect x="195" y="320" width="60" height="50" rx="8" fill="#e0e7ff"/>
+  <rect x="280" y="320" width="60" height="50" rx="8" fill="#dbeafe"/>
+  <rect x="365" y="250" width="60" height="50" rx="8" fill="#e0e7ff"/>
+  <rect x="365" y="320" width="60" height="50" rx="8" fill="#dcfce7"/>
+</svg>
